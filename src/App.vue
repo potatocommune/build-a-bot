@@ -11,7 +11,7 @@
       </nav>
     </header>
     <main>
-      <HomePage />
+      <!-- <HomePage /> -->
       <RobotBuilder />
     </main>
   </div>
