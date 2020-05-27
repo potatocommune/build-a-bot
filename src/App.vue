@@ -11,8 +11,7 @@
       </nav>
     </header>
     <main>
-      <!-- <HomePage /> -->
-      <RobotBuilder />
+        <RobotBuilder />
     </main>
   </div>
 </template>
@@ -35,15 +34,6 @@ body {
   background-attachment: fixed;
 }
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
 main {
   margin: 0 auto;
   padding: 30px;
@@ -52,11 +42,13 @@ main {
   min-height: 300px;
 }
 
+
 header {
   background-color: #999;
   width: 1084px;
   margin: 0 auto;
 }
+
 ul {
   padding: 3px;
   display: flex;
@@ -70,5 +62,14 @@ ul {
 .logo {
   vertical-align: middle;
   height: 30px;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>
