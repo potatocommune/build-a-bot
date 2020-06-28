@@ -12,4 +12,15 @@ export default new Vuex.Store({
       state.cart.push(robot);
     },
   },
+  getters: {
+    cartSaleItems(state) {
+      return state.cart.filter((item) => (
+        item.head.onSale
+        || item.leftArm.onSale
+        || item.torso.onSale
+        || item.rightArm.onSale
+        || item.base.onSale
+      ));
+    },
+  },
 });
