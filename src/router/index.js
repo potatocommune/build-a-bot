@@ -60,7 +60,7 @@ export default new Router({
     component: PartInfo,
     props: true,
     beforeEnter(to, from, next) {
-      const isValidId = Number.isInterger(Number(to.params.id));
+      const isValidId = Number.isInteger(Number(to.params.id));
       next(isValidId);
     },
   }, {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="part">
     <h1>{{part.title}}</h1>
     <div>
       {{part.description}}
